@@ -2,3 +2,8 @@ stuff/
 plan.md
 desc.md
 agent.md
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.sqlite3
