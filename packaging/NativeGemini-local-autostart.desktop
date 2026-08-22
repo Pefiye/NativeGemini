@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=NativeGemini
+Comment=Start NativeGemini hidden for global hotkey access
+Exec=/usr/bin/env bash -lc "cd '/home/Pefiye/Documents/ Projects/Personal Projects/NativeGemini' && exec .venv/bin/nativegemini --hidden"
+Icon=assistant
+Terminal=false
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-after=panel

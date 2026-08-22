@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=NativeGemini
+Comment=KDE-native Gemini overlay
+Exec=nativegemini
+Icon=assistant
+Terminal=false
+Categories=Utility;

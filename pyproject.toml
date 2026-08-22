@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nativegemini"
+version = "0.1.0"
+description = "KDE-native Gemini overlay for Wayland."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "dbus-next>=0.2.3",
+  "PySide6>=6.7",
+  "google-genai>=1.0",
+  "httpx>=0.28",
+  "secretstorage>=3.3",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+nativegemini = "NativeGemini.main:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.hatch.build.targets.wheel]
+packages = ["NativeGemini"]

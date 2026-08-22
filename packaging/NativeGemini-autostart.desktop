@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=NativeGemini
+Comment=Start NativeGemini hidden for global hotkey access
+Exec=nativegemini --hidden
+Icon=assistant
+Terminal=false
+X-GNOME-Autostart-enabled=true
